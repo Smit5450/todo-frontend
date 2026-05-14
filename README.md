@@ -1,16 +1,136 @@
-# React + Vite
+# 🚀 MERN Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Todo Application built using the MERN stack.
 
-Currently, two official plugins are available:
+This project allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add todos
+* Update todo status
+* Delete todos
+* Search and filter todos
+* Toggle dark/light mode
+* Store data permanently using MongoDB
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+Frontend: YOUR_VERCEL_URL
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend API: YOUR_RENDER_URL/todos
+
+---
+
+## ✨ Features
+
+* ✅ Add Todo
+* ✅ Delete Todo
+* ✅ Mark Todo as Completed
+* ✅ Search Todos
+* ✅ Filter Todos
+* ✅ Responsive UI
+* ✅ Dark / Light Theme
+* ✅ Toast Notifications
+* ✅ MongoDB Database Integration
+* ✅ REST API Integration
+* ✅ Persistent Data Storage
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+
+### Deployment
+
+* Vercel (Frontend)
+* Render (Backend)
+* MongoDB Atlas (Database)
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone YOUR_GITHUB_REPO_URL
+```
+
+---
+
+### Frontend Setup
+
+```bash
+cd todo-frontend
+npm install
+npm run dev
+```
+
+---
+
+### Backend Setup
+
+```bash
+cd todo-backend
+npm install
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+### Frontend `.env`
+
+```env
+VITE_API_URL=YOUR_BACKEND_URL
+```
+
+---
+
+### Backend `.env`
+
+```env
+MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+```
+
+---
+
+## 📚 API Endpoints
+
+| Method | Endpoint   | Description      |
+|--------|------------|------------------|
+| GET    | /todos     | Get all todos    |
+| POST   | /todos     | Create todo      |
+| PATCH  | /todos/:id | Toggle completed |
+| DELETE | /todos/:id | Delete todo      |
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and works on:
+
+* Mobile
+* Tablet
+* Desktop
+
+---
+
+## 👨‍💻 Author
+
+Smit Patel
+
+Backend Developer learning Fullstack Development 🚀
