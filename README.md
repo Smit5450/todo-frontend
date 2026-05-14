@@ -15,9 +15,9 @@ This project allows users to:
 
 ## 🌐 Live Demo
 
-Frontend: YOUR_VERCEL_URL
+Frontend: https://todo-frontend-blush-gamma.vercel.app
 
-Backend API: YOUR_RENDER_URL/todos
+Backend API: https://todo-backend-tv38.onrender.com/todos
 
 ---
 
